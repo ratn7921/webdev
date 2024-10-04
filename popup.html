@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container" id="backgroundContainer">
+        <h1>Pomodoro Timer</h1>
+        <div id="timerDisplay">25:00</div>
+        <div class="button-container">
+            <button id="startBtn" onclick="startTimer()">Start</button>
+            <button id="stopBtn" style="display:none;">Stop</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div id="status"></div>
+<!--         
+        <div class="background-options">
+            <h2>Change Background</h2>
+            <button id="bgImage1">Image 1</button>
+            <button id="bgImage2">Image 2</button>
+            <button id="bgImage3">Image 3</button>
+        </div> -->
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

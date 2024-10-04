@@ -1,0 +1,100 @@
+/* Basic reset for padding and margin */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5296db;
+    background-image: url(./The\ real\ moneyshower.gif); /* Fallback color */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    height: 400px; /* You can adjust this height as needed */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    position: relative; /* For absolute positioning of the background */
+    overflow: hidden; /* Prevents content overflow */
+}
+
+
+/* Background style */
+.background {
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Timer display styles (changed to a circle) */
+#timerDisplay {
+    font-size: 48px;
+    color: #333;
+    margin: 20px 0;
+    width: 150px;  /* Width and height to create a circle */
+    height: 150px; 
+    display: flex;
+    align-items: center; /* Centers the text vertically */
+    justify-content: center; /* Centers the text horizontally */
+    background-color: #fffb00e3; /* Bright yellow for visibility */
+    border-radius: 50%; /* Makes the shape a circle */
+    border: 4px solid #ffee01e1; /* Darker yellow border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+}
+
+
+/* Button container */
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+/* Button styles */
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button styles for different states */
+button:hover {
+    background-color: #ffa000; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Status message styles */
+#status {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Background options styles */
+.background-options {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.background-options h2 {
+    font-size: 18px;
+    color: #333;
+}
